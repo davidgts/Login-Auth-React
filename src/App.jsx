@@ -7,9 +7,7 @@ function App() {
       <AuthProvider>
         <RouterApp/>
         <GlobalStyle/>
-      </AuthProvider>
-      
- 
+      </AuthProvider>     
     </div>
   );
 }
