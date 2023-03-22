@@ -1,11 +1,14 @@
 import RouterApp from './routes'
 import GlobalStyle from "./styles/global";
-
+import { AuthProvider } from './context/auth';
 function App() {
   return (
     <div className="App">
-      <RouterApp/>
-      <GlobalStyle/>
+      <AuthProvider>
+        <RouterApp/>
+        <GlobalStyle/>
+      </AuthProvider>
+      
  
     </div>
   );
