@@ -5,7 +5,6 @@ import Signup from '../pages/signup';
 
 const Private = ({Item}) =>{
     const signed = false;
-
     return signed > 0 ? <Item/> : <Signin/>;
 }
 
