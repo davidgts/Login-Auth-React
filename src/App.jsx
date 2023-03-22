@@ -1,10 +1,12 @@
+import RouterApp from './routes'
 import GlobalStyle from "./styles/global";
 
 function App() {
   return (
     <div className="App">
+      <RouterApp/>
       <GlobalStyle/>
-       <h1>Hellow</h1>
+ 
     </div>
   );
 }
