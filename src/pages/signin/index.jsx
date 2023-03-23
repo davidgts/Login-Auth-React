@@ -38,7 +38,7 @@ function Signin() {
           <C.LabelSignup>
             Não tem ainda uma conta?
             <C.Strong>
-              <Link to="/signup">Registre-se</Link>
+              <Link to="/signup">&nbsp;Registre-se</Link>
             </C.Strong>
           </C.LabelSignup>
         
